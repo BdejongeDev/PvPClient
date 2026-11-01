@@ -1,0 +1,11 @@
+{
+	"schemaVersion": 1,
+	"id": "pvpclient-gametest",
+	"version": "1.0.0",
+	"name": "PvPClient GameTest",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": ["com.example.pvpclient.gametest.ClientSmokeTest"]
+	},
+	"depends": { "pvpclient": "*" }
+}

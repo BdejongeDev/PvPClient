@@ -1,0 +1,39 @@
+# ─── Secrets / obsolete tooling — NEVER commit ──────────────────
+# The old license keygen holds a private signing key. The mod is now free and
+# open source with no license check, so this whole folder is excluded.
+tools/
+*.bak-*
+.env
+.env.local
+
+# ─── Gradle / build output ──────────────────────────────────────
+.gradle/
+build/
+*/build/
+*/.gradle/
+run/
+*/run/
+release/
+
+# ─── Old / scratch artifacts ────────────────────────────────────
+oude-jars/
+
+# ─── IDE ────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+bin/
+.settings/
+.classpath
+.project
+.factorypath
+
+# ─── OS ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# Large promo renders (screenshots used by the README live in images/)
+promo/
+aimassist-logo-transparant.png

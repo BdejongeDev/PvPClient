@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "pvpclient",
+	"version": "${version}",
+	"name": "PvPClient",
+	"description": "Modular PvP HUD and training client: combo, CPS and target HUD, hit timing, custom crosshair, ClickGUI (Right Shift) and a movable HUD.",
+	"authors": ["BdejongeDev"],
+	"license": "MIT",
+	"icon": "assets/pvpclient/icon.png",
+	"contact": {
+		"discord": "https://discord.gg/EwdtxCMZSh"
+	},
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.example.pvpclient.PvPClient"],
+		"modmenu": ["com.example.pvpclient.modmenu.PvPClientModMenu"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/EwdtxCMZSh"
+			}
+		}
+	}
+}
